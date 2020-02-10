@@ -29,7 +29,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but1" />
+            android:text="@string/but1"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/but2"
@@ -38,7 +39,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but2" />
+            android:text="@string/but2"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/but3"
@@ -47,7 +49,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but3" />
+            android:text="@string/but3"
+            android:onClick="btnPress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -63,7 +66,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but4" />
+            android:text="@string/but4"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/but5"
@@ -72,7 +76,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but5" />
+            android:text="@string/but5"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/but6"
@@ -81,7 +86,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but6" />
+            android:text="@string/but6"
+            android:onClick="btnPress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -97,7 +103,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but7" />
+            android:text="@string/but7"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/but8"
@@ -106,7 +113,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but8" />
+            android:text="@string/but8"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/but9"
@@ -115,7 +123,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but9" />
+            android:text="@string/but9"
+            android:onClick="btnPress"/>
     </LinearLayout>
 
     <LinearLayout
@@ -131,7 +140,8 @@
             android:layout_margin="5dp"
             android:layout_weight="2"
             android:background="@android:drawable/btn_default"
-            android:text="@string/but0" />
+            android:text="@string/but0"
+            android:onClick="btnPress"/>
 
         <Button
             android:id="@+id/butDetPoint"
@@ -140,7 +150,8 @@
             android:layout_margin="5dp"
             android:layout_weight="1"
             android:background="@android:drawable/btn_default"
-            android:text="@string/butDecPoint" />
+            android:text="@string/butDecPoint"
+            android:onClick="btnPress"/>
     </LinearLayout>
 
 </LinearLayout>
